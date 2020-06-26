@@ -1,0 +1,2 @@
+.clock{display:flex;justify-content:space-between;align-items:center;width:100vw;height:100vh;opacity:1%;transition:.75s linear}.clock:active{opacity:0}.clock .time{width:auto;max-width:90%;margin:0 auto;padding:2rem;text-align:center;font-size:8rem;border:1px solid #000}.grey{background-color:grey}.white{background-color:#fff}.orange{background-color:orange}
+/*# sourceMappingURL=main.35c820a2.chunk.css.map */
