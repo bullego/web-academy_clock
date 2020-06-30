@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4470bfc024b3387653672124a0810bd4",
+    "revision": "dab1a068d9ab3a6b51d70029d9186a95",
     "url": "/web-academy_clock/index.html"
   },
   {
-    "revision": "df30b73624f1aabf8033",
-    "url": "/web-academy_clock/static/css/main.e2fb98b0.chunk.css"
+    "revision": "d4a290f70eebbb5d669f",
+    "url": "/web-academy_clock/static/css/main.d95530c4.chunk.css"
   },
   {
     "revision": "5b0f8c1cce26645cbb8e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-academy_clock/static/js/2.dade42cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df30b73624f1aabf8033",
-    "url": "/web-academy_clock/static/js/main.063a580d.chunk.js"
+    "revision": "d4a290f70eebbb5d669f",
+    "url": "/web-academy_clock/static/js/main.f6cc1a10.chunk.js"
   },
   {
     "revision": "01cc5c66436826470a79",
