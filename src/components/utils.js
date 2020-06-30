@@ -31,16 +31,6 @@ export const createDate = (showViewName) => {
   }
 
 
-  //show time on header
-  setInterval(myTimer, 1000);
-
-  function myTimer() {
-    const d = new Date();
-    const t = d.toLocaleTimeString();
-    document.getElementById("demo").innerHTML = t;
-  }
-
-
   if(showViewName === 'time') {    
     return getTime();
   } 
