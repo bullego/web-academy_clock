@@ -5,9 +5,8 @@ import './clock.scss';
 
 
 export default class Clock extends Component {
-
 	state = {
-		isClick: false
+	  isClick: false
 	}
 
 	onBgChanges = () => {
