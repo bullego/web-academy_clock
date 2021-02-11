@@ -1,13 +1,14 @@
 //get random color
 export const getRandomColor = () => {
   const letters = '0123456789ABCDEF';
-	let color = '#';
+  let color = '#';
 	
   for (var i = 0; i < 6; i++) {
     color += letters[Math.floor(Math.random() * 16)];
   }
   return color;
 }
+
 
 //create current time/date/day
 export const createDate = (showViewName) => {
@@ -29,7 +30,6 @@ export const createDate = (showViewName) => {
 
     return today;
   }
-
 
   if(showViewName === 'time') {    
     return getTime();
