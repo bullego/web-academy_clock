@@ -5,27 +5,27 @@ import './clock.scss';
 
 
 export default class Clock extends Component {
-	state = {
-	  isClick: false
-	}
+  state = {
+    isClick: false
+  }
 
-	onBgChanges = () => {
-		this.setState({
-			isClick: true
-		})
+  onBgChanges = () => {
+    this.setState({
+      isClick: true
+    })
 
-		const newColor = getRandomColor();
-		return newColor;
-	}
+    const newColor = getRandomColor();
+    return newColor;
+  }
 
   render() {
-		const styles = {
-			background: this.state.isClick ? getRandomColor() : this.onBgChanges()
-		}
+    const styles = {
+      background: this.state.isClick ? getRandomColor() : this.onBgChanges()
+    }
     return (
-			<div style={styles}
-					 onClick={() => this.onBgChanges()} >
-				<Display />
+      <div style={styles}
+           onClick={() => this.onBgChanges()}>
+        <Display />
       </div>
     );
   };
